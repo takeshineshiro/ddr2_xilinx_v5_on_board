@@ -1,0 +1,14 @@
+# Output products list for <ila_chip_cmd_gen>
+_xmsgs\pn_parser.xmsgs
+ila_chip_cmd_gen.asy
+ila_chip_cmd_gen.cdc
+ila_chip_cmd_gen.gise
+ila_chip_cmd_gen.ngc
+ila_chip_cmd_gen.sym
+ila_chip_cmd_gen.v
+ila_chip_cmd_gen.veo
+ila_chip_cmd_gen.xco
+ila_chip_cmd_gen.xise
+ila_chip_cmd_gen_flist.txt
+ila_chip_cmd_gen_readme.txt
+ila_chip_cmd_gen_xmdf.tcl

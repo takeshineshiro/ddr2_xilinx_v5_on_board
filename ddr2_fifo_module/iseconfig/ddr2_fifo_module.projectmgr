@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ddr2_fifo_module" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ddr2_module_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/data_format_out - data_format_out</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top/ddr2_fifo_top - ddr2_fifo_top/data_format_in - data_format_in</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top/ddr2_fifo_top - ddr2_fifo_top/data_format_out - data_format_out</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top/ddr2_fifo_top - ddr2_fifo_top/ddr_sdram - ddr_sdram/u_ddr2_top_0 - ddr2_top</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top/ddr2_fifo_top - ddr2_fifo_top/fifo_control - fifo_control</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr2_module_top - ddr2_module_top/ddr2_fifo_top - ddr2_fifo_top/wr_fifo_module - wr_fifo</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr_sdram - ddr_sdram</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/ddr_sdram_top - ddr_sdram_top</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/fifo_control - fifo_control/cmd_gen - cmd_gen</ClosedNode>
+         <ClosedNode>/ddr2_rtl_top D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr2_rtl_top.v/rd_fifo_module - rd_fifo</ClosedNode>
+         <ClosedNode>/ddr_sdram D:|ddr2_xilinx_v5|ddr2_fifo_module|ddr_sdram.v</ClosedNode>
+         <ClosedNode>/sim_fifo_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top/data_format_out - data_format_out</ClosedNode>
+         <ClosedNode>/sim_fifo_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top/ddr_sdram - ddr_sdram</ClosedNode>
+         <ClosedNode>/sim_fifo_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top/fifo_control - fifo_control</ClosedNode>
+         <ClosedNode>/sim_fifo_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top/rd_fifo_module - rd_fifo</ClosedNode>
+         <ClosedNode>/sim_fifo_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_fifo_top.v/ddr2_fifo_top - ddr2_fifo_top/wr_fifo_module - wr_fifo</ClosedNode>
+         <ClosedNode>/sim_tb_top D:|ddr2_xilinx_v5|ddr2_fifo_module|sim_tb_top.v/uut - sim_fifo_top</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ddr2_rtl_top (D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000204000000020000000000000000000000000200000064ffffffff000000810000000300000002000002040000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>ddr2_rtl_top (D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001d0000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009a00000001000000000000005a0000000100000000000000780000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>addr_gen.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001af000000010001000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View HDL Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View HDL Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001af000000010000000100000000000000000000000064ffffffff000000810000000000000001000001af0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000144000000cc01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

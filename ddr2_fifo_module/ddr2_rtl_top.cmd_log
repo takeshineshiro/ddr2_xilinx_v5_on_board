@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.xst" -ofn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf 
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd ddr2_rtl_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ddr2_rtl_top.twx ddr2_rtl_top.ncd -o ddr2_rtl_top.twr ddr2_rtl_top.pcf -ucf ddr_sdram.ucf 
+bitgen -intstyle ise -f ddr2_rtl_top.ut ddr2_rtl_top.ncd 
+xst -intstyle ise -ifn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.xst" -ofn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf 
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd ddr2_rtl_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ddr2_rtl_top.twx ddr2_rtl_top.ncd -o ddr2_rtl_top.twr ddr2_rtl_top.pcf -ucf ddr_sdram.ucf 
+bitgen -intstyle ise -f ddr2_rtl_top.ut ddr2_rtl_top.ncd 
+xst -intstyle ise -ifn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.xst" -ofn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf 
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd ddr2_rtl_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ddr2_rtl_top.twx ddr2_rtl_top.ncd -o ddr2_rtl_top.twr ddr2_rtl_top.pcf -ucf ddr_sdram.ucf 
+bitgen -intstyle ise -f ddr2_rtl_top.ut ddr2_rtl_top.ncd 
+xst -intstyle ise -ifn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.xst" -ofn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf 
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd ddr2_rtl_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ddr2_rtl_top.twx ddr2_rtl_top.ncd -o ddr2_rtl_top.twr ddr2_rtl_top.pcf -ucf ddr_sdram.ucf 
+bitgen -intstyle ise -f ddr2_rtl_top.ut ddr2_rtl_top.ncd 
+xst -intstyle ise -ifn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.xst" -ofn "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf 
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd ddr2_rtl_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ddr2_rtl_top.twx ddr2_rtl_top.ncd -o ddr2_rtl_top.twr ddr2_rtl_top.pcf -ucf ddr_sdram.ucf 
+bitgen -intstyle ise -f ddr2_rtl_top.ut ddr2_rtl_top.ncd 

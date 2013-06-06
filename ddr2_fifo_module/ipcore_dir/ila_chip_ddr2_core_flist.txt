@@ -1,0 +1,14 @@
+# Output products list for <ila_chip_ddr2_core>
+_xmsgs\pn_parser.xmsgs
+ila_chip_ddr2_core.asy
+ila_chip_ddr2_core.cdc
+ila_chip_ddr2_core.gise
+ila_chip_ddr2_core.ngc
+ila_chip_ddr2_core.sym
+ila_chip_ddr2_core.v
+ila_chip_ddr2_core.veo
+ila_chip_ddr2_core.xco
+ila_chip_ddr2_core.xise
+ila_chip_ddr2_core_flist.txt
+ila_chip_ddr2_core_readme.txt
+ila_chip_ddr2_core_xmdf.tcl

@@ -1,0 +1,14 @@
+# Output products list for <dout_ila_final>
+_xmsgs\pn_parser.xmsgs
+dout_ila_final.asy
+dout_ila_final.cdc
+dout_ila_final.gise
+dout_ila_final.ngc
+dout_ila_final.sym
+dout_ila_final.v
+dout_ila_final.veo
+dout_ila_final.xco
+dout_ila_final.xise
+dout_ila_final_flist.txt
+dout_ila_final_readme.txt
+dout_ila_final_xmdf.tcl

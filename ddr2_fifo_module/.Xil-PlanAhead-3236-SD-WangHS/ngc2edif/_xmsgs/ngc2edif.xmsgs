@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NetListWriters" num="298" delta="new" >No output is written to <arg fmt="%s" index="1">ddr2_rtl_top.xncf</arg>, ignored.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_ctrl/precharge_ok_cnt_r_mux0000</arg><arg fmt="%s" index="2">&lt;4 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_ctrl/state_r1</arg><arg fmt="%s" index="2">&lt;5 : 1&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/calib_start_shift0_r</arg><arg fmt="%s" index="2">&lt;15 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/calib_start_shift1_r</arg><arg fmt="%s" index="2">&lt;15 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/calib_start_shift3_r</arg><arg fmt="%s" index="2">&lt;15 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/ddr_addr_r</arg><arg fmt="%s" index="2">&lt;10 : 1&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/init_state_r1</arg><arg fmt="%s" index="2">&lt;26 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_init/init_state_r2</arg><arg fmt="%s" index="2">&lt;23 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/calib_done_tmp</arg><arg fmt="%s" index="2">&lt;3 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_calib/next_count_dq_mux0000</arg><arg fmt="%s" index="2">&lt;4 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_write/init_data_r_mux0000</arg><arg fmt="%s" index="2">&lt;11 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_write/wdf_data_r_mux0000</arg><arg fmt="%s" index="2">&lt;60 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/fifo_control/cmd_gen/cur_state</arg><arg fmt="%s" index="2">&lt;4 : 0&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/fifo_control/cmd_gen/next_state</arg><arg fmt="%s" index="2">&lt;4 : 1&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+<msg type="warning" file="NetListWriters" num="306" delta="new" >Signal bus <arg fmt="%s" index="1">ddr2_module_top/ddr2_fifo_top/fifo_control/cmd_gen/next_state_mux0000</arg><arg fmt="%s" index="2">&lt;4 : 1&gt;</arg> on block <arg fmt="%s" index="3">ddr2_rtl_top</arg> is not reconstructed, because there are some missing bus signals.
+</msg>
+
+</messages>
+

@@ -1,0 +1,13 @@
+# Output products list for <icon_ddr2_rtl>
+_xmsgs\pn_parser.xmsgs
+icon_ddr2_rtl.asy
+icon_ddr2_rtl.gise
+icon_ddr2_rtl.ngc
+icon_ddr2_rtl.sym
+icon_ddr2_rtl.v
+icon_ddr2_rtl.veo
+icon_ddr2_rtl.xco
+icon_ddr2_rtl.xise
+icon_ddr2_rtl_flist.txt
+icon_ddr2_rtl_readme.txt
+icon_ddr2_rtl_xmdf.tcl

@@ -1,0 +1,14 @@
+# Output products list for <ila_data_gen>
+_xmsgs\pn_parser.xmsgs
+ila_data_gen.asy
+ila_data_gen.cdc
+ila_data_gen.gise
+ila_data_gen.ngc
+ila_data_gen.sym
+ila_data_gen.v
+ila_data_gen.veo
+ila_data_gen.xco
+ila_data_gen.xise
+ila_data_gen_flist.txt
+ila_data_gen_readme.txt
+ila_data_gen_xmdf.tcl

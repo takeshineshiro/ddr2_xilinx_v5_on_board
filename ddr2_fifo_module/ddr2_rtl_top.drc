@@ -1,0 +1,1218 @@
+Release 13.3 Drc O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Thu Jun 06 17:07:58 2013
+
+drc -z ddr2_rtl_top.ncd ddr2_rtl_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net CONTROL<13> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   fifo_control/cmd_gen/next_state_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of
+   data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<0>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<1>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<2>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<3>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<53>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<54>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<55>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<56>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<13>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<14>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<15>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<16>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<5>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<6>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<7>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<8>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<9>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<10>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<11>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<12>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<45>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<46>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<47>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<48>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<57>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<58>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<59>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<60>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<53>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<54>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<55>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<56>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<77>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<78>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<79>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<80>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<57>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<58>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<59>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<60>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<49>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<50>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<51>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<52>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<17>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<18>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<19>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<20>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<41>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<42>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<43>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<44>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<21>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<22>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<23>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<24>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<49>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<50>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<51>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<52>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<73>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<74>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<75>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<76>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<89>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<90>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<91>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<92>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<85>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<86>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<87>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<88>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<81>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<82>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<83>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<84>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<45>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<46>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<47>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<48>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<44>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<45>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<46>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<47>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<36>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<37>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<38>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<39>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<93>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<28>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<29>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<30>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<31>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<16>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<17>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<18>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<19>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<20>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<21>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<22>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<23>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<48>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<49>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<50>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<51>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<40>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<41>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<42>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<43>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<24>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<25>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<26>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<27>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<52>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<53>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<54>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<55>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<60>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<61>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<62>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<63>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<8>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<9>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<10>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<11>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<56>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<57>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<58>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<59>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<12>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<13>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<14>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<15>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<32>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<33>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<34>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<35>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<4>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<5>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<6>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<7>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<61>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<62>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<63>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<64>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<65>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<66>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<67>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<68>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<69>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<70>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<71>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<72>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<74>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<75>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<76>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<77>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<41>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<42>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<43>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<44>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<108>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<109>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<110>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<111>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<19>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<23>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<24>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<25>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<70>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<71>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<72>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<73>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<25>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<26>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<27>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<28>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<33>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<34>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<35>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<36>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<37>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<38>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<39>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<40>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<77>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<78>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<79>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<80>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<43>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<44>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<45>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<46>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<78>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<112>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<113>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<114>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<115>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<0>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<1>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<2>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<3>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<81>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<82>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<83>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<103>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<5>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<4>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<6>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<12>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<61>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<62>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<63>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<64>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<13>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<14>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<15>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<16>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<66>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<67>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<68>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<69>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<21>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<22>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<23>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<24>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<29>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<30>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<31>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<32>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<35>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<36>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<37>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<38>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<104>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<105>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<106>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<107>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<69>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<70>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<71>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<72>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<17>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<18>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<19>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<20>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<105>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<106>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<107>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<108>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<129>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<130>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<39>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<40>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<41>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<42>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<37>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<38>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<39>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<40>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<65>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<66>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<67>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<68>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<73>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<74>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<75>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<76>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<85>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<86>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<87>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<88>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<81>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<82>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<83>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<84>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<6>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<4>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<7>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<8>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<101>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<102>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<103>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<104>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<0>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<1>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<2>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<3>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<29>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<30>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<32>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<73>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<74>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<75>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<76>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<93>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<94>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<95>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<96>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<64>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<66>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<67>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<68>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<9>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<10>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<11>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<12>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<125>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<126>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<127>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<128>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<25>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<26>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<27>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<28>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<33>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<34>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<35>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<36>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<113>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<114>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<115>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<116>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<97>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<98>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<99>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<100>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<77>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<78>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<79>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<80>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<109>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<110>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<111>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<112>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<14>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<15>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<16>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<18>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<117>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<118>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<119>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<120>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<12>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<13>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<14>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<34>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<69>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<70>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<71>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<72>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<121>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<122>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<123>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<124>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<48>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<49>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<63>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<64>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<0>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<1>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<3>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<4>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<0>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<1>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<2>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<3>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<65>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<5>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<6>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<7>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<8>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<13>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<14>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<15>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<16>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_syn
+   c_fifo.gl0.wr/gwas.wsts/ram_almost_full_i_mux0000> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<36>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<37>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<38>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<39>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<4>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<5>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<6>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<7>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<40>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<41>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<42>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<43>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<44>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<45>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<46>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<47>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<89>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<90>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<91>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<92>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<9>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<10>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<11>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<12>>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<0>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<1>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<2>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<3>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<8>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<9>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<10>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_in/ila_data_format/U0/iTRIG_IN<11>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_s
+   ync_fifo.gl0.wr/gwas.wsts/ram_almost_full_i_mux0000> is incomplete. The
+   signal does not drive any load pins in the design.
+DRC detected 0 errors and 413 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

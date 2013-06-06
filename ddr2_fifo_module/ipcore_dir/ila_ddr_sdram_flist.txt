@@ -1,0 +1,14 @@
+# Output products list for <ila_ddr_sdram>
+_xmsgs\pn_parser.xmsgs
+ila_ddr_sdram.asy
+ila_ddr_sdram.cdc
+ila_ddr_sdram.gise
+ila_ddr_sdram.ngc
+ila_ddr_sdram.sym
+ila_ddr_sdram.v
+ila_ddr_sdram.veo
+ila_ddr_sdram.xco
+ila_ddr_sdram.xise
+ila_ddr_sdram_flist.txt
+ila_ddr_sdram_readme.txt
+ila_ddr_sdram_xmdf.tcl

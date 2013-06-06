@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ddr2_xilinx_v5\ddr2_fifo_module\ddr2_rtl_top.ncd
+OUTFILE=D:\ddr2_xilinx_v5\ddr2_fifo_module\ddr2_rtl_top.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=D:\ddr2_xilinx_v5\ddr2_fifo_module
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

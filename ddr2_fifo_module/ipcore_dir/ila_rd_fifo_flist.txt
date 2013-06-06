@@ -1,0 +1,14 @@
+# Output products list for <ila_rd_fifo>
+_xmsgs\pn_parser.xmsgs
+ila_rd_fifo.asy
+ila_rd_fifo.cdc
+ila_rd_fifo.gise
+ila_rd_fifo.ngc
+ila_rd_fifo.sym
+ila_rd_fifo.v
+ila_rd_fifo.veo
+ila_rd_fifo.xco
+ila_rd_fifo.xise
+ila_rd_fifo_flist.txt
+ila_rd_fifo_readme.txt
+ila_rd_fifo_xmdf.tcl

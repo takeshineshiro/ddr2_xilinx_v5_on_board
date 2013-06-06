@@ -1,0 +1,14 @@
+# Output products list for <ila_data_format_in>
+_xmsgs\pn_parser.xmsgs
+ila_data_format_in.asy
+ila_data_format_in.cdc
+ila_data_format_in.gise
+ila_data_format_in.ngc
+ila_data_format_in.sym
+ila_data_format_in.v
+ila_data_format_in.veo
+ila_data_format_in.xco
+ila_data_format_in.xise
+ila_data_format_in_flist.txt
+ila_data_format_in_readme.txt
+ila_data_format_in_xmdf.tcl

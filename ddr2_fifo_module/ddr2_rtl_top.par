@@ -1,0 +1,1227 @@
+Release 13.3 par O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SD-WANGHS::  Thu Jun 06 17:07:02 2013
+
+par -w -intstyle ise -ol high -mt off ddr2_rtl_top_map.ncd ddr2_rtl_top.ncd
+ddr2_rtl_top.pcf 
+
+
+Constraints file: ddr2_rtl_top.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment D:\xilinx_13.3\ISE_DS\ISE\.
+   "ddr2_rtl_top" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.73 2011-10-03".
+
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 4      25%
+   Number of BUFGs                          10 out of 32     31%
+   Number of BUFIOs                          4 out of 80      5%
+   Number of FIFO36_72_EXPs                  1 out of 148     1%
+   Number of FIFO36_EXPs                     1 out of 148     1%
+   Number of IDELAYCTRLs                     2 out of 22      9%
+   Number of ILOGICs                        36 out of 800     4%
+      Number of LOCed ILOGICs                4 out of 36     11%
+
+   Number of External IOBs                  77 out of 640    12%
+      Number of LOCed IOBs                  77 out of 77    100%
+
+   Number of IODELAYs                       40 out of 800     5%
+      Number of LOCed IODELAYs               4 out of 40     10%
+
+   Number of OLOGICs                        74 out of 800     9%
+   Number of PLL_ADVs                        2 out of 6      33%
+   Number of RAMB36_EXPs                    11 out of 148     7%
+   Number of Slices                       1607 out of 17280   9%
+   Number of Slice Registers              3447 out of 69120   4%
+      Number used as Flip Flops           3415
+      Number used as Latches                32
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   2163 out of 69120   3%
+   Number of Slice LUT-Flip Flop pairs    4190 out of 69120   6%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+WARNING:Timing:3223 - Timing constraint TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FROM TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO   
+       TIMEGRP "RAMS" TS_SYS_CLK * 4; ignored during timing analysis.
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please
+   consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.
+Starting initial Timing Analysis.  REAL time: 11 secs 
+Finished initial Timing Analysis.  REAL time: 11 secs 
+
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<53> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<54> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<55> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<56> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<13> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<14> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<15> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<16> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<5> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<6> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<7> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<8> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<9> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<10> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<11> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<12> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<45> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<46> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<47> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<48> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<57> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<58> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<59> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<60> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<53> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<54> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<55> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<56> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<77> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<78> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<79> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<80> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<57> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<58> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<59> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<60> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<49> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<50> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<51> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<52> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<17> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<18> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<19> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<20> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<41> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<42> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<43> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<44> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<21> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<22> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<23> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<24> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<49> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<50> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<51> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<52> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<73> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<74> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<75> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<76> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<89> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<90> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<91> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<92> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<85> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<86> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<87> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<88> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<81> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<82> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<83> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<84> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<45> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<46> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<47> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<48> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<44> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<45> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<46> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<47> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<36> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<37> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<38> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<39> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<93> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<48> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<49> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<50> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<51> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<40> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<41> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<42> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<43> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<52> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<53> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<54> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<55> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<60> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<61> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<62> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<63> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<56> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<57> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<58> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<59> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<32> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<33> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<34> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<35> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<61> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<62> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<63> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<64> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<65> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<66> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<67> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<68> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<69> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<70> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<71> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<72> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<74> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<75> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<76> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<77> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<41> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<42> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<43> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<44> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<108> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<109> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<110> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<111> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<19> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<23> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<24> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<25> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<70> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<71> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<72> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<73> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<25> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<26> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<27> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<28> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<33> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<34> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<35> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<36> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<37> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<38> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<39> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<40> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<77> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<78> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<79> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<80> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<43> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<44> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<45> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<46> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<78> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<112> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<113> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<114> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<115> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<81> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<82> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<83> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<103> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<12> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<61> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<62> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<63> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<64> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<13> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<14> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<15> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<16> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<66> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<67> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<68> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<69> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<21> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<22> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<23> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<24> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<29> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<30> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<31> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<32> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<35> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<36> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<37> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<38> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<104> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<105> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<106> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<107> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<69> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<70> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<71> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<72> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<17> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<18> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<19> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<20> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<105> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<106> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<107> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<108> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<129> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<130> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<39> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<40> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<41> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<42> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<37> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<38> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<39> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<40> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<65> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<66> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<67> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<68> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<73> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<74> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<75> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<76> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<85> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<86> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<87> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<88> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<81> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<82> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<83> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<84> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<6> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<4> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<7> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<8> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<101> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<102> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<103> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<104> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<0> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<1> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<2> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<3> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<29> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<30> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<31> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<32> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<73> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<74> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<75> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<76> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<93> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<94> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<95> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<96> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<64> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<66> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<67> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<68> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<9> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<10> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<11> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<12> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<125> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<126> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<127> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<128> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<25> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<26> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<27> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<28> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<33> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<34> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<35> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<36> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<113> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<114> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<115> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<116> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<97> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<98> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<99> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<100> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<77> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<78> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<79> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<80> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<109> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<110> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<111> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<112> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<14> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<15> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<16> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<18> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<117> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<118> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<119> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<120> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<12> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<13> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<14> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<34> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<69> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<70> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<71> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<72> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<121> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<122> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<123> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<124> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<48> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<49> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<63> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<64> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<0> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<1> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<2> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<3> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<65> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_almost_full_i
+   _mux0000 has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<36> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<37> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<38> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<39> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<4> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<5> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<6> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<7> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<40> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<41> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<42> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<43> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<44> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<45> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<46> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<47> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<89> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<90> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<91> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<92> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal din_gen/ila_data_gen/U0/iTRIG_IN<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<0> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<1> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<2> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<3> has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<8> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<9> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<10> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal data_format_in/ila_data_format/U0/iTRIG_IN<11> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_almost_full
+   _i_mux0000 has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 16099 unrouted;      REAL time: 14 secs 
+INFO:Route:538 - One or more MIG cores have been detected in your design and have been successfully
+   placed and routed. These MIG core(s) have critical skew and delay requirements 
+   that are independent of the user (UCF) timing constraints. These MIG-related timing 
+   constraints have been successfully met in this design. However, the user must verify
+   separately that all timing constraints specified in the UCF file have been met.
+
+
+Phase  2  : 12261 unrouted;      REAL time: 15 secs 
+
+Phase  3  : 3453 unrouted;      REAL time: 22 secs 
+
+Phase  4  : 3452 unrouted; (Setup:0, Hold:130, Component Switching Limit:0)     REAL time: 26 secs 
+
+Updating file: ddr2_rtl_top.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:133, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:133, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:133, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:133, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 29 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 30 secs 
+Total REAL time to Router completion: 30 secs 
+Total CPU time to Router completion: 28 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             clk0_tb |BUFGCTRL_X0Y28| No   |  903 |  0.598     |  2.134      |
++---------------------+--------------+------+------+------------+-------------+
+|             clk_125 | BUFGCTRL_X0Y1| No   |   25 |  0.229     |  1.964      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|         ram/clkdiv0 |BUFGCTRL_X0Y27| No   |  381 |  0.545     |  2.083      |
++---------------------+--------------+------+------+------------+-------------+
+|          CONTROL<0> |BUFGCTRL_X0Y30| No   |   66 |  0.513     |  2.054      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|           ram/clk90 |BUFGCTRL_X0Y29| No   |   96 |  0.487     |  2.111      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|          ram/clk200 |BUFGCTRL_X0Y16| No   |    9 |  0.340     |  1.896      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|ram/u_ddr2_top_0/u_m |              |      |      |            |             |
+|em_if_top/u_phy_top/ |              |      |      |            |             |
+|u_phy_io/delayed_dqs |              |      |      |            |             |
+|                 <0> |        IO Clk| No   |   17 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|ram/u_ddr2_top_0/u_m |              |      |      |            |             |
+|em_if_top/u_phy_top/ |              |      |      |            |             |
+|u_phy_io/delayed_dqs |              |      |      |            |             |
+|                 <1> |        IO Clk| No   |   17 |  0.083     |  0.380      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|ram/u_ddr2_top_0/u_m |              |      |      |            |             |
+|em_if_top/u_phy_top/ |              |      |      |            |             |
+|u_phy_io/delayed_dqs |              |      |      |            |             |
+|                 <2> |        IO Clk| No   |   17 |  0.128     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|ddr_sdram_top/ddr_sd |              |      |      |            |             |
+|ram/u_ddr2_top_0/u_m |              |      |      |            |             |
+|em_if_top/u_phy_top/ |              |      |      |            |             |
+|u_phy_io/delayed_dqs |              |      |      |            |             |
+|                 <3> |        IO Clk| No   |   17 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|fifo_control/addr_ge |              |      |      |            |             |
+|   n/rd_addr_en_reg0 | BUFGCTRL_X0Y4| No   |   28 |  0.088     |  1.789      |
++---------------------+--------------+------+------+------------+-------------+
+|         CONTROL<13> |         Local|      |    5 |  0.000     |  0.649      |
++---------------------+--------------+------+------+------------+-------------+
+|fifo_control/cmd_gen |              |      |      |            |             |
+| /next_state_not0001 |         Local|      |    1 |  0.000     |  0.434      |
++---------------------+--------------+------+------+------------+-------------+
+|icon_ddr2_rtl/U0/iUP |              |      |      |            |             |
+|            DATE_OUT |         Local|      |    1 |  0.000     |  1.201      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 7
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.012ns|     0.838ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  gen_dqs[1].u_iob_dqs/en_dqs_sync"         |             |            |            |        |            
+   MAXDELAY = 0.85 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.045ns|     0.805ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  gen_dqs[2].u_iob_dqs/en_dqs_sync"         |             |            |            |        |            
+   MAXDELAY = 0.85 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.047ns|     0.803ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  gen_dqs[0].u_iob_dqs/en_dqs_sync"         |             |            |            |        |            
+   MAXDELAY = 0.85 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.047ns|     0.803ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  gen_dqs[3].u_iob_dqs/en_dqs_sync"         |             |            |            |        |            
+   MAXDELAY = 0.85 ns                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.071ns|     0.529ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  en_dqs<0>"         MAXDELAY = 0.6 ns      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.071ns|     0.529ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  en_dqs<1>"         MAXDELAY = 0.6 ns      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.071ns|     0.529ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  en_dqs<2>"         MAXDELAY = 0.6 ns      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  NET         "ddr_sdram_top/ddr_sdram/u_dd | MAXDELAY    |     0.071ns|     0.529ns|       0|           0
+  r2_top_0/u_mem_if_top/u_phy_top/u_phy_io/ |             |            |            |        |            
+  en_dqs<3>"         MAXDELAY = 0.6 ns      |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_pll_gen_CLKOUT2_BUF = PERIOD TIMEGRP " | SETUP       |     0.090ns|     7.910ns|       0|           0
+  pll_gen_CLKOUT2_BUF" TS_clk_in / 2.5      | HOLD        |     4.221ns|            |       0|           0
+      HIGH 50%                              |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | SETUP       |     0.870ns|     7.130ns|       0|           0
+  ructure_clk0_bufg_in_0 = PERIOD         T | HOLD        |     0.156ns|            |       0|           0
+  IMEGRP "ddr_sdram_top_ddr_sdram_u_ddr2_in |             |            |            |        |            
+  frastructure_clk0_bufg_in_0"         TS_p |             |            |            |        |            
+  ll_gen_CLKOUT2_BUF HIGH 50%               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_FROM_EN_DQS_FF_TO_DQ_CE_FF = MAXDELAY  | SETUP       |     1.160ns|     2.690ns|       0|           0
+  FROM TIMEGRP "EN_DQS_FF" TO TIMEGRP       | HOLD        |     2.763ns|            |       0|           0
+     "TNM_DQ_CE_IDDR" 3.85 ns DATAPATHONLY  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_DQ_CE = MAXDELAY FROM TIMEGRP "TNM_DQ_ | SETUP       |     1.625ns|     1.975ns|       0|           0
+  CE_IDDR" TO TIMEGRP "TNM_DQS_FLOPS"       | HOLD        |     1.004ns|            |       0|           0
+     3.6 ns                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | SETUP       |     1.890ns|     4.220ns|       0|           0
+  ructure_clk90_bufg_in_0 = PERIOD          | HOLD        |     0.445ns|            |       0|           0
+  TIMEGRP         "ddr_sdram_top_ddr_sdram_ |             |            |            |        |            
+  u_ddr2_infrastructure_clk90_bufg_in_0"    |             |            |            |        |            
+        TS_pll_gen_CLKOUT2_BUF PHASE 2 ns H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_pll_gen_CLKOUT3_BUF = PERIOD TIMEGRP " | SETUP       |     3.088ns|     1.912ns|       0|           0
+  pll_gen_CLKOUT3_BUF" TS_clk_in / 4        | HOLD        |     0.447ns|            |       0|           0
+    HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_SYS_CLK_200 = PERIOD TIMEGRP "SYS_CLK_ | MINPERIOD   |     3.334ns|     1.666ns|       0|           0
+  200" 5 ns HIGH 50%                        |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clk_in = PERIOD TIMEGRP "clk_in" 20 ns | MINLOWPULSE |    14.000ns|     6.000ns|       0|           0
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_SYS_CLK = PERIOD TIMEGRP "SYS_CLK" 8 n | MINLOWPULSE |     3.999ns|     4.000ns|       0|           0
+  s HIGH 50%                                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | SETUP       |     4.428ns|     9.279ns|       0|           0
+  ructure_clkdiv0_bufg_in_0 = PERIOD        | HOLD        |     0.211ns|            |       0|           0
+    TIMEGRP         "ddr_sdram_top_ddr_sdra |             |            |            |        |            
+  m_u_ddr2_infrastructure_clkdiv0_bufg_in_0 |             |            |            |        |            
+  "         TS_pll_gen_CLKOUT2_BUF / 0.5 HI |             |            |            |        |            
+  GH 50%                                    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | MINHIGHPULSE|     5.450ns|     2.550ns|       0|           0
+  ructure_clk0_bufg_in = PERIOD TIMEGRP     |             |            |            |        |            
+       "ddr_sdram_top_ddr_sdram_u_ddr2_infr |             |            |            |        |            
+  astructure_clk0_bufg_in"         TS_SYS_C |             |            |            |        |            
+  LK HIGH 50%                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | MINHIGHPULSE|     5.500ns|     2.500ns|       0|           0
+  ructure_clk90_bufg_in = PERIOD         TI |             |            |            |        |            
+  MEGRP "ddr_sdram_top_ddr_sdram_u_ddr2_inf |             |            |            |        |            
+  rastructure_clk90_bufg_in"         TS_SYS |             |            |            |        |            
+  _CLK PHASE 2 ns HIGH 50%                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrast | MINPERIOD   |    12.001ns|     3.999ns|       0|           0
+  ructure_clkdiv0_bufg_in = PERIOD          |             |            |            |        |            
+  TIMEGRP         "ddr_sdram_top_ddr_sdram_ |             |            |            |        |            
+  u_ddr2_infrastructure_clkdiv0_bufg_in"    |             |            |            |        |            
+        TS_SYS_CLK / 0.5 HIGH 50%           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    12.316ns|     2.684ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     1.784ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.106ns|     0.894ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.569ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    22.128ns|     7.872ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.465ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_0 = MAXDELAY FROM | SETUP       |    26.791ns|     5.209ns|       0|           0
+   TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO       | HOLD        |     0.411ns|            |       0|           0
+     TIMEGRP "FFS" TS_SYS_CLK * 4           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RD_DATA_SEL = MAXDELAY FROM TIMEGRP | SETUP       |    27.504ns|     4.496ns|       0|           0
+   "TNM_RD_DATA_SEL" TO TIMEGRP "FFS"       | HOLD        |     0.940ns|            |       0|           0
+     TS_SYS_CLK * 4                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_SEL_MUX = MAXDELAY FROM TIMEGR | SETUP       |    28.910ns|     3.090ns|       0|           0
+  P "TNM_RDEN_SEL_MUX" TO TIMEGRP "FFS"     | HOLD        |     0.833ns|            |       0|           0
+       TS_SYS_CLK * 4                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_GATE_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    29.753ns|     2.247ns|       0|           0
+  NM_GATE_DLY" TO TIMEGRP "FFS"         TS_ | HOLD        |     0.016ns|            |       0|           0
+  SYS_CLK * 4                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_DLY = MAXDELAY FROM TIMEGRP "T | SETUP       |    30.038ns|     1.962ns|       0|           0
+  NM_RDEN_DLY" TO TIMEGRP "FFS"         TS_ | HOLD        |     0.050ns|            |       0|           0
+  SYS_CLK * 4                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_CAL_RDEN_DLY = MAXDELAY FROM TIMEGR | SETUP       |    30.049ns|     1.951ns|       0|           0
+  P "TNM_CAL_RDEN_DLY" TO TIMEGRP "FFS"     | HOLD        |     0.040ns|            |       0|           0
+       TS_SYS_CLK * 4                       |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FRO | N/A         |         N/A|         N/A|     N/A|         N/A
+  M TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO      |             |            |            |        |            
+      TIMEGRP "RAMS" TS_SYS_CLK * 4         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     3.396ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     3.493ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_SYS_CLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_SYS_CLK                     |      8.000ns|      4.000ns|      2.550ns|            0|            0|            0|          431|
+| TS_MC_RD_DATA_SEL             |     32.000ns|      4.496ns|          N/A|            0|            0|          192|            0|
+| TS_MC_RDEN_SEL_MUX            |     32.000ns|      3.090ns|          N/A|            0|            0|           64|            0|
+| TS_MC_PHY_INIT_DATA_SEL_0     |     32.000ns|      5.209ns|          N/A|            0|            0|          145|            0|
+| TS_MC_PHY_INIT_DATA_SEL_90    |     32.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| TS_MC_GATE_DLY                |     32.000ns|      2.247ns|          N/A|            0|            0|           20|            0|
+| TS_MC_RDEN_DLY                |     32.000ns|      1.962ns|          N/A|            0|            0|            5|            0|
+| TS_MC_CAL_RDEN_DLY            |     32.000ns|      1.951ns|          N/A|            0|            0|            5|            0|
+| TS_ddr_sdram_top_ddr_sdram_u_d|      8.000ns|      2.550ns|          N/A|            0|            0|            0|            0|
+| dr2_infrastructure_clk0_bufg_i|             |             |             |             |             |             |             |
+| n                             |             |             |             |             |             |             |             |
+| TS_ddr_sdram_top_ddr_sdram_u_d|      8.000ns|      2.500ns|          N/A|            0|            0|            0|            0|
+| dr2_infrastructure_clk90_bufg_|             |             |             |             |             |             |             |
+| in                            |             |             |             |             |             |             |             |
+| TS_ddr_sdram_top_ddr_sdram_u_d|     16.000ns|      3.999ns|          N/A|            0|            0|            0|            0|
+| dr2_infrastructure_clkdiv0_buf|             |             |             |             |             |             |             |
+| g_in                          |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_clk_in
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk_in                      |     20.000ns|      6.000ns|     19.775ns|            0|            0|            0|        21755|
+| TS_pll_gen_CLKOUT2_BUF        |      8.000ns|      7.910ns|      7.130ns|            0|            0|           63|        21668|
+|  TS_ddr_sdram_top_ddr_sdram_u_|      8.000ns|      7.130ns|          N/A|            0|            0|        14226|            0|
+|  ddr2_infrastructure_clk0_bufg|             |             |             |             |             |             |             |
+|  _in_0                        |             |             |             |             |             |             |             |
+|  TS_ddr_sdram_top_ddr_sdram_u_|      8.000ns|      4.220ns|          N/A|            0|            0|          365|            0|
+|  ddr2_infrastructure_clk90_buf|             |             |             |             |             |             |             |
+|  g_in_0                       |             |             |             |             |             |             |             |
+|  TS_ddr_sdram_top_ddr_sdram_u_|     16.000ns|      9.279ns|          N/A|            0|            0|         7077|            0|
+|  ddr2_infrastructure_clkdiv0_b|             |             |             |             |             |             |             |
+|  ufg_in_0                     |             |             |             |             |             |             |             |
+| TS_pll_gen_CLKOUT3_BUF        |      5.000ns|      1.912ns|          N/A|            0|            0|           24|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 411 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 34 secs 
+Total CPU time to PAR completion: 32 secs 
+
+Peak Memory Usage:  527 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 414
+Number of info messages: 2
+
+Writing design to file ddr2_rtl_top.ncd
+
+
+
+PAR done!

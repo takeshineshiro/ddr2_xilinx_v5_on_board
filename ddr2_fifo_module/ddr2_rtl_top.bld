@@ -1,0 +1,491 @@
+Release 13.3 ngdbuild O.76xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\xilinx_13.3\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ddr_sdram.ucf -p
+xc5vlx110t-ff1136-1 ddr2_rtl_top.ngc ddr2_rtl_top.ngd
+
+Reading NGO file "D:/ddr2_xilinx_v5/ddr2_fifo_module/ddr2_rtl_top.ngc" ...
+Loading design module "ipcore_dir/fifo_clk.ngc"...
+Loading design module "ipcore_dir/icon_ddr2_rtl.ngc"...
+Loading design module "ipcore_dir/ila_chipscope_wr_fifo.ngc"...
+Loading design module "ipcore_dir/fifo_wr.ngc"...
+Loading design module "ipcore_dir/ila_rd_fifo.ngc"...
+Loading design module "ipcore_dir/fifo_1.ngc"...
+Loading design module "ipcore_dir/ila_ddr_sdram.ngc"...
+Loading design module "ipcore_dir/ila_data_gen.ngc"...
+Loading design module "ipcore_dir/fifo.ngc"...
+Loading design module "ipcore_dir/dout_ila_final.ngc"...
+Loading design module "ipcore_dir/ila_data_format.ngc"...
+Loading design module "ipcore_dir/ila_cmd_gen.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "ddr_sdram.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem - TNM : D_CLK was distributed to a DCM but new TNM
+   constraints were not derived. This TNM is used in the following user groups
+   or specifications:
+   <TIMESPEC TS_J_TO_D = FROM "J_CLK" TO "D_CLK" TIG;>
+   <TIMESPEC TS_D_TO_J = FROM "D_CLK" TO "J_CLK" TIG;>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK', used in period specification
+   'TS_SYS_CLK', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk0_bufg_in = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk0_bufg_in" TS_SYS_CLK HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK', used in period specification
+   'TS_SYS_CLK', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk90_bufg_in = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk90_bufg_in" TS_SYS_CLK
+   PHASE 2 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK', used in period specification
+   'TS_SYS_CLK', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clkdiv0_bufg_in = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clkdiv0_bufg_in" TS_SYS_CLK /
+   0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance pll_gen/PLL_ADV_INST. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_pll_gen_CLKOUT2_BUF = PERIOD "pll_gen_CLKOUT2_BUF"
+   TS_clk_in / 2.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
+   'TS_clk_in', was traced into PLL_ADV instance pll_gen/PLL_ADV_INST. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_pll_gen_CLKOUT3_BUF = PERIOD "pll_gen_CLKOUT3_BUF"
+   TS_clk_in / 4 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'pll_gen_CLKOUT2_BUF', used in period
+   specification 'TS_pll_gen_CLKOUT2_BUF', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk0_bufg_in_0 = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk0_bufg_in_0"
+   TS_pll_gen_CLKOUT2_BUF HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'pll_gen_CLKOUT2_BUF', used in period
+   specification 'TS_pll_gen_CLKOUT2_BUF', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk90_bufg_in_0 = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clk90_bufg_in_0"
+   TS_pll_gen_CLKOUT2_BUF PHASE 2 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'pll_gen_CLKOUT2_BUF', used in period
+   specification 'TS_pll_gen_CLKOUT2_BUF', was traced into PLL_ADV instance
+   ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/gen_pll_adv.u_pll_adv. The
+   following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clkdiv0_bufg_in_0 = PERIOD
+   "ddr_sdram_top_ddr_sdram_u_ddr2_infrastructure_clkdiv0_bufg_in_0"
+   TS_pll_gen_CLKOUT2_BUF / 0.5 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_c
+   alib/gen_rden[1].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_c
+   alib/gen_rden[2].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/u_phy_c
+   alib/gen_rden[3].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'N236' has no driver
+WARNING:NgdBuild:452 - logical net 'N237' has no driver
+WARNING:NgdBuild:452 - logical net 'N238' has no driver
+WARNING:NgdBuild:452 - logical net 'N239' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'data_format_in/CONTROL<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'din_gen/CONTROL<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<32>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<33>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<34>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<35>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'fifo_control/cmd_gen/CONTROL<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<10>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<11>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<21>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<22>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<23>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<24>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<4>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<30>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<5>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<25>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<31>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<6>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<26>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<7>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<8>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<9>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'wr_fifo_module/ila_chipscope_wr_fifo/CONTROL<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<10>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<11>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<20>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<21>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<1>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<16>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<22>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<17>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<23>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<18>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<24>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<4>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<19>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<30>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<5>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<25>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<31>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<6>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<26>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<32>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<7>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<27>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<33>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<8>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<28>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<34>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<9>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<29>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'rd_fifo_module/ila_rd_fifo/CONTROL<35>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<10>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<11>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<20>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<21>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<1>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<16>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<22>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<17>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<23>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<18>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<24>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<4>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<19>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<30>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<5>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<25>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<31>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<6>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<26>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<32>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<7>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<27>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<33>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<8>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<28>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<34>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<9>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<29>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'ddr_sdram_top/ila_ddr_sdram/CONTROL<35>' has
+   no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 218
+
+Total memory usage is 292716 kilobytes
+
+Writing NGD file "ddr2_rtl_top.ngd" ...
+Total REAL time to NGDBUILD completion:  14 sec
+Total CPU time to NGDBUILD completion:   14 sec
+
+Writing NGDBUILD log file "ddr2_rtl_top.bld"...

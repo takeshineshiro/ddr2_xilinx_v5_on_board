@@ -1,0 +1,14 @@
+# Output products list for <pll_ila>
+_xmsgs\pn_parser.xmsgs
+pll_ila.asy
+pll_ila.cdc
+pll_ila.gise
+pll_ila.ngc
+pll_ila.sym
+pll_ila.v
+pll_ila.veo
+pll_ila.xco
+pll_ila.xise
+pll_ila_flist.txt
+pll_ila_readme.txt
+pll_ila_xmdf.tcl

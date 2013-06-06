@@ -1,0 +1,1507 @@
+Release 13.3 Map O.76xd (nt)
+Xilinx Map Application Log File for Design 'ddr2_rtl_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o ddr2_rtl_top_map.ncd ddr2_rtl_top.ngd ddr2_rtl_top.pcf
+ 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Thu Jun 06 17:06:03 2013
+
+Mapping design into LUTs...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKAU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKAL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKAU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKAL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKAU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKAL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   data_format_out/dout_ila_final/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_T
+   RACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36K
+   GT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sy
+   nc_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr
+   /ramloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKAL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBU connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP
+   of frag REGCLKBL connected to power/ground net
+   wr_fifo_module/fifo_wr/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync
+   _fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/r
+   amloop[3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP_REGCLKBL_tiesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Timing:3223 - Timing constraint TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY
+   FROM TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO TIMEGRP "RAMS" TS_SYS_CLK * 4 ignored
+   during timing analysis.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 16 secs 
+Total CPU  time at the beginning of Placer: 16 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:254541f3) REAL time: 18 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:254541f3) REAL time: 18 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:24b919e3) REAL time: 18 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:bac93081) REAL time: 18 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:bac93081) REAL time: 36 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:bac93081) REAL time: 36 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+
+
+There are 16 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y7:                        | CLOCKREGION_X1Y7:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y6:                        | CLOCKREGION_X1Y6:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 1 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y5>
+  key resource utilizations (used/available): edge-bufios - 1/4; center-bufios - 0/2; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|  16  |  4  |  0 |   40   |   40   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|  16  |  2  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  16  |  0  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6>
+  key resource utilizations (used/available): edge-bufios - 3/4; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|  16  |  0  |  0 |   80   |   80   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|  16  |  4  |  0 |   40   |   40   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  16  |  2  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 16  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 4 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# IO-Clock "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" driven by "BUFIO_X0Y27"
+INST "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[0].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y27" ;
+NET "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" TNM_NET =
+"TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" ;
+TIMEGRP "TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" AREA_GROUP =
+"CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" ;
+AREA_GROUP "CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<0>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" driven by "BUFIO_X0Y26"
+INST "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[1].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y26" ;
+NET "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" TNM_NET =
+"TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" ;
+TIMEGRP "TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" AREA_GROUP =
+"CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" ;
+AREA_GROUP "CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<1>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" driven by "BUFIO_X0Y24"
+INST "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[2].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y24" ;
+NET "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" TNM_NET =
+"TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" ;
+TIMEGRP "TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" AREA_GROUP =
+"CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" ;
+AREA_GROUP "CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<2>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" driven by "BUFIO_X0Y23"
+INST "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/gen_dqs[3].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y23" ;
+NET "ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" TNM_NET =
+"TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" ;
+TIMEGRP "TN_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" AREA_GROUP =
+"CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" ;
+AREA_GROUP "CLKAG_ddr_sdram_top/ddr_sdram/u_ddr2_top_0/u_mem_if_top/u_phy_top/u_phy_io/delayed_dqs<3>" RANGE =
+CLOCKREGION_X0Y5;
+
+
+WARNING:Place:971 - A GCLK / GCLK clock component pair have been found that are not placed at an optimal GCLK / GCLK
+   site pair. The GCLK component <pll_gen/CLKOUT3_BUFG_INST> is placed at site <BUFGCTRL_X0Y0>. The corresponding GCLK
+   component <ddr_sdram_top/ddr_sdram/u_ddr2_infrastructure/bufg_clk_200> is placed at site <BUFGCTRL_X0Y31>. The GCLK
+   site can use the fast path to the other GCLK if both the GCLK components are placed in the same half of the device
+   (TOP or BOTTOM). You may want to analyze why this problem exists and correct it. This is not an error so processing
+   will continue.
+Phase 7.2  Initial Clock and IO Placement (Checksum:d80447b4) REAL time: 37 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:d80447b4) REAL time: 37 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:d80447b4) REAL time: 37 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:d80447b4) REAL time: 37 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:d80447b4) REAL time: 37 secs 
+
+Phase 12.8  Global Placement
+................................................................................................................................................................
+.........
+...............................................................................
+................
+................
+................
+Phase 12.8  Global Placement (Checksum:b6e1a43d) REAL time: 44 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:b6e1a43d) REAL time: 44 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:b6e1a43d) REAL time: 44 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:5ec44b39) REAL time: 53 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:5ec44b39) REAL time: 54 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:5ec44b39) REAL time: 54 secs 
+
+Total REAL time to Placer completion: 54 secs 
+Total CPU  time to Placer completion: 54 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net CONTROL<13> is sourced by a combinatorial pin. This is not good
+   design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net fifo_control/cmd_gen/next_state_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<0>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<1>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<2>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<3>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<53>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<54>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<55>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<56>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<13>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<14>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<15>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<16>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<5>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<6>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<7>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<8>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<9>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<10>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<11>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<12>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<45>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<46>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<47>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<48>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<57>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<58>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<59>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<60>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<53>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<54>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<55>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<56>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<77>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<78>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<79>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<80>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<57>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<58>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<59>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<60>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<49>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<50>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<51>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<52>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<17>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<18>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<19>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<20>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<41>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<42>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<43>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<44>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<21>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<22>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<23>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<24>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<49>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<50>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<51>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<52>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<73>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<74>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<75>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<76>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<89>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<90>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<91>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<92>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<85>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<86>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<87>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<88>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<81>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<82>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<83>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<84>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<45>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<46>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<47>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<48>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<44>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<45>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<46>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<47>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<36>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<37>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<38>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<39>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<93>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<28>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<29>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<30>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<31>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<16>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<17>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<18>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<19>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<20>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<21>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<22>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<23>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<48>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<49>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<50>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<51>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<40>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<41>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<42>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<43>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<24>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<25>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<26>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<27>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<52>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<53>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<54>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<55>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<60>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<61>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<62>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<63>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<8>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<9>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<10>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<11>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<56>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<57>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<58>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<59>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<12>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<13>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<14>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<15>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<32>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<33>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<34>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<35>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<4>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<5>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<6>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<7>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<61>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<62>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<63>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<64>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<65>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<66>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<67>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<68>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<69>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<70>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<71>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<72>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<74>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<75>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<76>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<77>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<41>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<42>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<43>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<44>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<108>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<109>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<110>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<111>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<19>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<23>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<24>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<25>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<70>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<71>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<72>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<73>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<25>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<26>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<27>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<28>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<33>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<34>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<35>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<36>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<37>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<38>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<39>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<40>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<77>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<78>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<79>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<80>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<43>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<44>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<45>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<46>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<78>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<112>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<113>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<114>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<115>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<0>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<1>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<2>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<3>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<81>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<82>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<83>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<103>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<5>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<4>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<6>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<12>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<61>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<62>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<63>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<64>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<13>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<14>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<15>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<16>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<66>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<67>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<68>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<69>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<21>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<22>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<23>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<24>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<29>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<30>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<31>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<32>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<35>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<36>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<37>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<38>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<104>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<105>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<106>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<107>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<69>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<70>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<71>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<72>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<17>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<18>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<19>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <ddr_sdram_top/ila_ddr_sdram/U0/iTRIG_IN<20>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<105>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<106>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<107>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<108>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<129>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<130>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<39>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<40>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<41>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<42>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<37>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<38>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<39>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<40>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<65>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<66>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<67>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<68>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<73>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<74>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<75>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<76>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<85>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<86>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<87>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<88>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<81>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<82>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<83>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<84>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<6>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<4>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<7>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<8>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<101>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<102>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<103>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<104>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<0>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<1>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<2>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<3>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<29>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<30>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<31>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<32>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<73>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<74>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<75>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<76>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<93>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<94>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<95>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<96>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<64>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<66>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<67>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<68>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<9>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<10>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<11>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<12>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<125>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<126>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<127>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<128>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<25>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<26>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<27>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<28>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<33>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<34>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<35>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<36>> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<113>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<114>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<115>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<116>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<97>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<98>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<99>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<100>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<77>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<78>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<79>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<80>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<109>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<110>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<111>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<112>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<14>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<15>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<16>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <fifo_control/cmd_gen/ila_cmd_gen/U0/iTRIG_IN<18>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<117>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<118>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<119>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<120>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<12>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<13>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<14>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<34>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<69>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<70>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<71>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<72>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<121>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<122>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<123>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<124>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<48>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<49>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<63>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<64>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<0>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<1>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<3>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<4>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<0>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<1>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<2>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<3>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<65>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<5>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<6>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<7>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<8>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<13>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<14>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<15>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<16>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <rd_fifo_module/rd_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_almost_full_
+   i_mux0000> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<36>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<37>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<38>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<39>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<4>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<5>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<6>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<7>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<40>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<41>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<42>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<43>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<44>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<45>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<46>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<47>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<89>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<90>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<91>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <rd_fifo_module/ila_rd_fifo/U0/iTRIG_IN<92>> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<9>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<10>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<11>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <din_gen/ila_data_gen/U0/iTRIG_IN<12>> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<0>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<1>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<2>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <wr_fifo_module/ila_chipscope_wr_fifo/U0/iTRIG_IN<3>> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<8>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<9>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<10>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <data_format_in/ila_data_format/U0/iTRIG_IN<11>> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <data_format_out/fifo_out/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_almost_ful
+   l_i_mux0000> is incomplete. The signal does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:  459
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,447 out of  69,120    4%
+    Number used as Flip Flops:               3,415
+    Number used as Latches:                     32
+  Number of Slice LUTs:                      2,163 out of  69,120    3%
+    Number used as logic:                    1,946 out of  69,120    2%
+      Number using O6 output only:           1,586
+      Number using O5 output only:             191
+      Number using O5 and O6:                  169
+    Number used as Memory:                     196 out of  17,920    1%
+      Number used as Shift Register:           196
+        Number using O6 output only:           195
+        Number using O5 and O6:                  1
+    Number used as exclusive route-thru:        21
+  Number of route-thrus:                       212
+    Number using O6 output only:               212
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,607 out of  17,280    9%
+  Number of LUT Flip Flop pairs used:        4,190
+    Number with an unused Flip Flop:           743 out of   4,190   17%
+    Number with an unused LUT:               2,027 out of   4,190   48%
+    Number of fully used LUT-FF pairs:       1,420 out of   4,190   33%
+    Number of unique control sets:             372
+    Number of slice register sites lost
+      to control set restrictions:             856 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        77 out of     640   12%
+    Number of LOCed IOBs:                       77 out of      77  100%
+    IOB Flip Flops:                            150
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      13 out of     148    8%
+    Number using BlockRAM only:                 11
+    Number using FIFO only:                      2
+    Total primitives used:
+      Number of 36k BlockRAM used:              11
+      Number of 36k FIFO used:                   2
+    Total Memory used (KB):                    468 out of   5,328    8%
+  Number of BUFG/BUFGCTRLs:                     10 out of      32   31%
+    Number used as BUFGs:                       10
+  Number of IDELAYCTRLs:                         2 out of      22    9%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFIOs:                              4 out of      80    5%
+  Number of PLL_ADVs:                            2 out of       6   33%
+
+  Number of RPM macros:            9
+Average Fanout of Non-Clock Nets:                2.89
+
+Peak Memory Usage:  532 MB
+Total REAL time to MAP completion:  56 secs 
+Total CPU time to MAP completion:   56 secs 
+
+Mapping completed.
+See MAP report file "ddr2_rtl_top_map.mrp" for details.

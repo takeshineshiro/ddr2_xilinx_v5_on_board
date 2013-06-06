@@ -1,0 +1,24 @@
+# Output products list for <data_gen_src>
+_xmsgs\pn_parser.xmsgs
+data_gen_src.asy
+data_gen_src.gise
+data_gen_src.ngc
+data_gen_src.sym
+data_gen_src.v
+data_gen_src.veo
+data_gen_src.xco
+data_gen_src.xise
+data_gen_src_flist.txt
+data_gen_src_ste\example_design\data_gen_src_top.ucf
+data_gen_src_ste\example_design\data_gen_src_top.vhd
+data_gen_src_ste\example_design\data_gen_src_top.xdc
+data_gen_src_ste\implement\implement.bat
+data_gen_src_ste\implement\implement.sh
+data_gen_src_ste\implement\planAhead_rdn.bat
+data_gen_src_ste\implement\planAhead_rdn.sh
+data_gen_src_ste\implement\planAhead_rdn.tcl
+data_gen_src_ste\implement\xst.prj
+data_gen_src_ste\implement\xst.scr
+data_gen_src_xmdf.tcl
+fifo_generator_ug175.pdf
+fifo_generator_v8_3_readme.txt

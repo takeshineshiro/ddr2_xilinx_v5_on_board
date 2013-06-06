@@ -1,0 +1,24 @@
+# Output products list for <fifo_clk_switch>
+_xmsgs\pn_parser.xmsgs
+fifo_clk_switch.asy
+fifo_clk_switch.gise
+fifo_clk_switch.ngc
+fifo_clk_switch.sym
+fifo_clk_switch.v
+fifo_clk_switch.veo
+fifo_clk_switch.xco
+fifo_clk_switch.xise
+fifo_clk_switch_flist.txt
+fifo_clk_switch_ste\example_design\fifo_clk_switch_top.ucf
+fifo_clk_switch_ste\example_design\fifo_clk_switch_top.vhd
+fifo_clk_switch_ste\example_design\fifo_clk_switch_top.xdc
+fifo_clk_switch_ste\implement\implement.bat
+fifo_clk_switch_ste\implement\implement.sh
+fifo_clk_switch_ste\implement\planAhead_rdn.bat
+fifo_clk_switch_ste\implement\planAhead_rdn.sh
+fifo_clk_switch_ste\implement\planAhead_rdn.tcl
+fifo_clk_switch_ste\implement\xst.prj
+fifo_clk_switch_ste\implement\xst.scr
+fifo_clk_switch_xmdf.tcl
+fifo_generator_ug175.pdf
+fifo_generator_v8_3_readme.txt

@@ -1,0 +1,14 @@
+# Output products list for <ila_chipscope_wr_fifo>
+_xmsgs\pn_parser.xmsgs
+ila_chipscope_wr_fifo.asy
+ila_chipscope_wr_fifo.cdc
+ila_chipscope_wr_fifo.gise
+ila_chipscope_wr_fifo.ngc
+ila_chipscope_wr_fifo.sym
+ila_chipscope_wr_fifo.v
+ila_chipscope_wr_fifo.veo
+ila_chipscope_wr_fifo.xco
+ila_chipscope_wr_fifo.xise
+ila_chipscope_wr_fifo_flist.txt
+ila_chipscope_wr_fifo_readme.txt
+ila_chipscope_wr_fifo_xmdf.tcl

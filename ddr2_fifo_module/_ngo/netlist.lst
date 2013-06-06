@@ -1,0 +1,14 @@
+D:\ddr2_xilinx_v5\ddr2_fifo_module\ddr2_rtl_top.ngc 1370509545
+ipcore_dir/fifo_clk.ngc 1370310691
+ipcore_dir/icon_ddr2_rtl.ngc 1370221765
+ipcore_dir/ila_chipscope_wr_fifo.ngc 1370427483
+ipcore_dir/fifo_wr.ngc 1370505073
+ipcore_dir/ila_rd_fifo.ngc 1370253901
+ipcore_dir/fifo_1.ngc 1369992197
+ipcore_dir/ila_ddr_sdram.ngc 1370400020
+ipcore_dir/ila_data_gen.ngc 1370414613
+ipcore_dir/fifo.ngc 1369992409
+ipcore_dir/dout_ila_final.ngc 1370501793
+ipcore_dir/ila_data_format.ngc 1370398163
+ipcore_dir/ila_cmd_gen.ngc 1370482830
+OK

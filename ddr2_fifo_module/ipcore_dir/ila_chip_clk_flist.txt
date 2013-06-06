@@ -1,0 +1,14 @@
+# Output products list for <ila_chip_clk>
+_xmsgs\pn_parser.xmsgs
+ila_chip_clk.asy
+ila_chip_clk.cdc
+ila_chip_clk.gise
+ila_chip_clk.ngc
+ila_chip_clk.sym
+ila_chip_clk.v
+ila_chip_clk.veo
+ila_chip_clk.xco
+ila_chip_clk.xise
+ila_chip_clk_flist.txt
+ila_chip_clk_readme.txt
+ila_chip_clk_xmdf.tcl
